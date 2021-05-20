@@ -8,8 +8,8 @@ edition = "2018"
 # Substrate Client
 sc-authority-discovery = { git = "https://github.com/paritytech/substrate", branch = "bkchr-aura-build-verifier" }
 babe = { package = "sc-consensus-babe", git = "https://github.com/paritytech/substrate", branch = "bkchr-aura-build-verifier" }
-beefy-primitives = { git = "https://github.com/paritytech/grandpa-bridge-gadget", branch = "master" }
-beefy-gadget = { git = "https://github.com/paritytech/grandpa-bridge-gadget", branch = "master" }
+beefy-primitives = { git = "https://github.com/paritytech/grandpa-bridge-gadget", branch = "bkchr-aura-build-verifier" }
+beefy-gadget = { git = "https://github.com/paritytech/grandpa-bridge-gadget", branch = "bkchr-aura-build-verifier" }
 grandpa = { package = "sc-finality-grandpa", git = "https://github.com/paritytech/substrate", branch = "bkchr-aura-build-verifier" }
 sc-block-builder = { git = "https://github.com/paritytech/substrate", branch = "bkchr-aura-build-verifier" }
 sc-chain-spec = { git = "https://github.com/paritytech/substrate", branch = "bkchr-aura-build-verifier" }
