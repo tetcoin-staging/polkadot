@@ -14,20 +14,20 @@ polkadot-primitives = { path = "../../../primitives" }
 polkadot-node-subsystem = { path = "../../subsystem" }
 
 # Substrate dependencies
-substrate-test-client = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sc-service = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sc-block-builder = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sc-consensus = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-blockchain = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-inherents = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-core = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-api = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-timestamp = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-consensus = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-consensus-babe = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-state-machine = { git = "https://github.com/paritytech/substrate", branch = "master" }
+substrate-test-client = { git = "https://github.com/paritytech/substrate", branch = "bkchr-aura-build-verifier" }
+sc-service = { git = "https://github.com/paritytech/substrate", branch = "bkchr-aura-build-verifier" }
+sc-block-builder = { git = "https://github.com/paritytech/substrate", branch = "bkchr-aura-build-verifier" }
+sc-consensus = { git = "https://github.com/paritytech/substrate", branch = "bkchr-aura-build-verifier" }
+sp-blockchain = { git = "https://github.com/paritytech/substrate", branch = "bkchr-aura-build-verifier" }
+sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "bkchr-aura-build-verifier" }
+sp-inherents = { git = "https://github.com/paritytech/substrate", branch = "bkchr-aura-build-verifier" }
+sp-core = { git = "https://github.com/paritytech/substrate", branch = "bkchr-aura-build-verifier" }
+sp-api = { git = "https://github.com/paritytech/substrate", branch = "bkchr-aura-build-verifier" }
+sp-timestamp = { git = "https://github.com/paritytech/substrate", branch = "bkchr-aura-build-verifier" }
+sp-consensus = { git = "https://github.com/paritytech/substrate", branch = "bkchr-aura-build-verifier" }
+sp-consensus-babe = { git = "https://github.com/paritytech/substrate", branch = "bkchr-aura-build-verifier" }
+sp-state-machine = { git = "https://github.com/paritytech/substrate", branch = "bkchr-aura-build-verifier" }
 
 [dev-dependencies]
-sp-keyring = { git = "https://github.com/paritytech/substrate", branch = "master" }
+sp-keyring = { git = "https://github.com/paritytech/substrate", branch = "bkchr-aura-build-verifier" }
 futures = "0.3.12"
